@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicFinder — Распознавание музыки</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            margin: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff7e5f;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+        .feature i {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 MusicFinder</h1>
+        <p>Мгновенно распознавайте музыку, играющую вокруг вас. Просто нажмите кнопку, и через несколько секунд вы узнаете название трека и исполнителя.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <div>🎤</div>
+                <div>Распознавание<br>через микрофон</div>
+            </div>
+            <div class="feature">
+                <div>⚡</div>
+                <div>Высокая<br>точность</div>
+            </div>
+            <div class="feature">
+                <div>🆓</div>
+                <div>Бесплатно</div>
+            </div>
+        </div>
+
+        <a href="путь/к/вашему/MusicRecognizer_Setup.exe" class="btn">Скачать для Windows</a>
+        <p style="font-size: 0.9em; margin-top: 20px; opacity: 0.8;">Версия 1.0 | 25 МБ</p>
+    </div>
+</body>
+</html>
